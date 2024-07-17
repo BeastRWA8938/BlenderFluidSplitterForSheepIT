@@ -9,6 +9,11 @@ This script helps in organizing Blender simulation bakes by splitting them into 
 - Maintains directory structure for domain and subfolders.
 - Generates log files for each part, detailing the part size, start frame, and end frame.
 
+## Pre-Requirements
+
+- This project needs all your domains in the same folder as the project file (.blend)
+- All paths should be set as relative path. (https://docs.blender.org/manual/en/2.79/data_system/files/relative_paths.html)
+
 ## Requirements
 
 - Python 3.x
