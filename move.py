@@ -48,8 +48,8 @@ def move_frames(part_folder, domains, frame_range):
                             shutil.move(src, dst)
 
 # Example usage
-part_folder = r"C:\Users\Rushikesh\Desktop\Data\Blender\Final\ULTRA GOD LEVEL FINAL\Parts\Singularity"
-domains = ["FifthTank","SixthTank", "SeventhTank"]
+part_folder = r"C:\Users\.." # change this to destination
+domains = ["FifthTank","SixthTank", "SeventhTank"] # enter domain names
 frame_range = (15235, 17300)  # Move frames from 12900 to 12950
 
 move_frames(part_folder, domains, frame_range)
